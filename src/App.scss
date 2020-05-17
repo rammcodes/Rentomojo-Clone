@@ -130,9 +130,8 @@
           margin: 0 0 20px 0;
         }
         hr {
-          background: #dc3226;
-          height: 2px;
           width: 50px;
+          border: 1px solid #dc3226;
         }
       }
       .buttons {
@@ -190,8 +189,7 @@
             }
             .rate {
               font-size: 0.9rem;
-              color: #555;
-              font-weight: bold;
+              color: #000;
             }
           }
           .right {
