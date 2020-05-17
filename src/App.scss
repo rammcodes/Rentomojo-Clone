@@ -1,0 +1,67 @@
+.homeview {
+  font-family: 'Nunito', sans-serif;
+  .navbar {
+    position: fixed;
+    width: 100%;
+    padding: 15px 0;
+    border-bottom: 1px solid #eee;
+    .container {
+      max-width: 1300px;
+      width: 80%;
+      margin: auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      .brand-logo-cont {
+        width: 16%;
+        .logo {
+          width: 100%;
+        }
+      }
+
+      .search-bar {
+        width: 53%;
+        height: 100%;
+        padding: 13px 15px;
+        background: #fafafa;
+        border: 1px solid rgb(180, 180, 180);
+        border-radius: 10px;
+        font-family: 'Nunito', sans-serif;
+        font-size: 1rem;
+        &:focus {
+          outline: none;
+        }
+      }
+      .cart {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        align-self: stretch;
+        width: 10%;
+        .text {
+          color: grey;
+          font-weight: bold;
+          order: 2;
+        }
+        .icon {
+          margin: 0 5px 0 0;
+        }
+      }
+      .nav-btn {
+        width: 12%;
+        background: #dc3226;
+        border: none;
+        color: #fff;
+        border-radius: 10px;
+        align-self: stretch;
+        display: block;
+        font-weight: bold;
+        font-family: 'Nunito', sans-serif;
+        font-size: 1rem;
+        &:focus {
+          outline: none;
+        }
+      }
+    }
+  }
+}
