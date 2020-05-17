@@ -47,7 +47,7 @@ class App extends React.Component {
                   <div className="cat-icon-cont">
                     <img
                       className="icon"
-                      src="https://rentomojo.com/public/images/categories/new-furniture.svg"
+                      src="https://rentomojo.com/public/images/categories/new-packages.svg"
                       alt="cat"
                     />
                   </div>
@@ -67,7 +67,7 @@ class App extends React.Component {
                   <div className="cat-icon-cont">
                     <img
                       className="icon"
-                      src="https://rentomojo.com/public/images/categories/new-furniture.svg"
+                      src="https://rentomojo.com/public/images/categories/new-appliances.svg"
                       alt="cat"
                     />
                   </div>
@@ -77,7 +77,7 @@ class App extends React.Component {
                   <div className="cat-icon-cont">
                     <img
                       className="icon"
-                      src="https://rentomojo.com/public/images/categories/new-furniture.svg"
+                      src="https://rentomojo.com/public/images/categories/new-electronics.svg"
                       alt="cat"
                     />
                   </div>
@@ -87,7 +87,7 @@ class App extends React.Component {
                   <div className="cat-icon-cont">
                     <img
                       className="icon"
-                      src="https://rentomojo.com/public/images/categories/new-furniture.svg"
+                      src="https://rentomojo.com/public/images/categories/new-fitness.svg"
                       alt="cat"
                     />
                   </div>
@@ -97,7 +97,7 @@ class App extends React.Component {
                   <div className="cat-icon-cont">
                     <img
                       className="icon"
-                      src="https://rentomojo.com/public/images/categories/new-furniture.svg"
+                      src="https://rentomojo.com/public/images/categories/new-arrivals.svg"
                       alt="cat"
                     />
                   </div>
@@ -107,7 +107,7 @@ class App extends React.Component {
                   <div className="cat-icon-cont">
                     <img
                       className="icon"
-                      src="https://rentomojo.com/public/images/categories/new-furniture.svg"
+                      src="https://rentomojo.com/public/images/categories/offer.svg"
                       alt="cat"
                     />
                   </div>
@@ -117,6 +117,18 @@ class App extends React.Component {
             </div>
           </div>
         </header>
+        <section className="homeview-products">
+          <div className="upper">
+            <div className="msg">
+              <span className="text"> You'll love to take these home </span>
+              <hr />
+            </div>
+            <div className="buttons">
+              <span className="btn-cont"> </span>
+              <span className="btn-cont"> </span>
+            </div>
+          </div>
+        </section>
       </div>
     )
   }
