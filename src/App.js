@@ -128,6 +128,121 @@ class App extends React.Component {
               <span className="btn-cont"> </span>
             </div>
           </div>
+          <div className="products">
+            <div className="product">
+              <div className="prd-img-cont">
+                <img
+                  alt="product_image"
+                  className="img"
+                  src="//p.rmjo.in/productSquare/y4ytan9d-500x500.jpg"
+                />
+              </div>
+              <span className="prd-name">Samsung Galaxy S9 ( Black )</span>
+              <div className="down">
+                <div className="left">
+                  <p className="text">Rent</p>
+                  <p className="rate">$ 100/mo</p>
+                </div>
+              </div>
+            </div>
+            <div className="product">
+              <div className="prd-img-cont">
+                <img
+                  alt="product_image"
+                  className="img"
+                  src="//p.rmjo.in/productSquare/y4ytan9d-500x500.jpg"
+                />
+              </div>
+              <span className="prd-name">Samsung Galaxy S9 ( Black )</span>
+              <div className="down">
+                <div className="left">
+                  <p className="text">Rent</p>
+                  <p className="rate">$ 100/mo</p>
+                </div>
+              </div>
+            </div>
+            <div className="product">
+              <div className="prd-img-cont">
+                <img
+                  alt="product_image"
+                  className="img"
+                  src="//p.rmjo.in/productSquare/y4ytan9d-500x500.jpg"
+                />
+              </div>
+              <span className="prd-name">Samsung Galaxy S9 ( Black )</span>
+              <div className="down">
+                <div className="left">
+                  <p className="text">Rent</p>
+                  <p className="rate">$ 100/mo</p>
+                </div>
+              </div>
+            </div>
+            <div className="product">
+              <div className="prd-img-cont">
+                <img
+                  alt="product_image"
+                  className="img"
+                  src="//p.rmjo.in/productSquare/y4ytan9d-500x500.jpg"
+                />
+              </div>
+              <span className="prd-name">Samsung Galaxy S9 ( Black )</span>
+              <div className="down">
+                <div className="left">
+                  <p className="text">Rent</p>
+                  <p className="rate">$ 100/mo</p>
+                </div>
+              </div>
+            </div>
+            <div className="product">
+              <div className="prd-img-cont">
+                <img
+                  alt="product_image"
+                  className="img"
+                  src="//p.rmjo.in/productSquare/y4ytan9d-500x500.jpg"
+                />
+              </div>
+              <span className="prd-name">Samsung Galaxy S9 ( Black )</span>
+              <div className="down">
+                <div className="left">
+                  <p className="text">Rent</p>
+                  <p className="rate">$ 100/mo</p>
+                </div>
+              </div>
+            </div>
+            <div className="product">
+              <div className="prd-img-cont">
+                <img
+                  alt="product_image"
+                  className="img"
+                  src="//p.rmjo.in/productSquare/y4ytan9d-500x500.jpg"
+                />
+              </div>
+              <span className="prd-name">Samsung Galaxy S9 ( Black )</span>
+              <div className="down">
+                <div className="left">
+                  <p className="text">Rent</p>
+                  <p className="rate">$ 100/mo</p>
+                </div>
+              </div>
+            </div>
+            <div className="product">
+              <div className="prd-img-cont">
+                <img
+                  alt="product_image"
+                  className="img"
+                  src="//p.rmjo.in/productSquare/y4ytan9d-500x500.jpg"
+                />
+              </div>
+              <span className="prd-name">Samsung Galaxy S9 ( Black )</span>
+              <div className="down">
+                <div className="left">
+                  <p className="text">Rent</p>
+                  <p className="rate">$ 100/mo</p>
+                </div>
+              </div>
+            </div>
+         
+          </div>
         </section>
       </div>
     )
