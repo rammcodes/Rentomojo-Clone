@@ -154,15 +154,18 @@
     }
     .products {
       display: flex;
-      justify-content: space-between;
+      justify-content: space-around;
       flex-wrap: wrap;
       padding: 0 0 0 20px;
       width: 100%;
       overflow: auto;
       .product {
+        cursor: pointer;
         padding: 20px;
         width: 17%;
         background: #fff;
+        border: 1px solid #eee;
+        border-radius: 3px;
         .prd-img-cont {
           margin: 0 0 20px 0;
           .img {
@@ -175,6 +178,9 @@
           margin: 0 0 20px 0;
         }
         .down {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
           .left {
             .text {
               color: rgb(180, 180, 180);
@@ -185,6 +191,20 @@
               font-size: 1rem;
               color: #555;
               font-weight: bold;
+            }
+          }
+          .right {
+            .btn {
+              border: 1px solid #dc3226;
+              border-radius: 3px;
+              color: #dc3226;
+              background: #fff;
+              padding: 10px 30px;
+              cursor: pointer;
+              &:hover {
+                color: #fff;
+                background: #dc3226;
+              }
             }
           }
         }

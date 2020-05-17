@@ -137,11 +137,14 @@ class App extends React.Component {
                   src="//p.rmjo.in/productSquare/y4ytan9d-500x500.jpg"
                 />
               </div>
-              <span className="prd-name">Samsung Galaxy S9 ( Black )</span>
+              <span className="prd-name">Samsung Galaxy S9</span>
               <div className="down">
                 <div className="left">
                   <p className="text">Rent</p>
                   <p className="rate">$ 100/mo</p>
+                </div>
+                <div className="right">
+                  <button className="btn btn-inv">See More</button>
                 </div>
               </div>
             </div>
@@ -153,11 +156,14 @@ class App extends React.Component {
                   src="//p.rmjo.in/productSquare/y4ytan9d-500x500.jpg"
                 />
               </div>
-              <span className="prd-name">Samsung Galaxy S9 ( Black )</span>
+              <span className="prd-name">Samsung Galaxy S9</span>
               <div className="down">
                 <div className="left">
                   <p className="text">Rent</p>
                   <p className="rate">$ 100/mo</p>
+                </div>
+                <div className="right">
+                  <button className="btn btn-inv">See More</button>
                 </div>
               </div>
             </div>
@@ -169,11 +175,14 @@ class App extends React.Component {
                   src="//p.rmjo.in/productSquare/y4ytan9d-500x500.jpg"
                 />
               </div>
-              <span className="prd-name">Samsung Galaxy S9 ( Black )</span>
+              <span className="prd-name">Samsung Galaxy S9</span>
               <div className="down">
                 <div className="left">
                   <p className="text">Rent</p>
                   <p className="rate">$ 100/mo</p>
+                </div>
+                <div className="right">
+                  <button className="btn btn-inv">See More</button>
                 </div>
               </div>
             </div>
@@ -185,11 +194,14 @@ class App extends React.Component {
                   src="//p.rmjo.in/productSquare/y4ytan9d-500x500.jpg"
                 />
               </div>
-              <span className="prd-name">Samsung Galaxy S9 ( Black )</span>
+              <span className="prd-name">Samsung Galaxy S9</span>
               <div className="down">
                 <div className="left">
                   <p className="text">Rent</p>
                   <p className="rate">$ 100/mo</p>
+                </div>
+                <div className="right">
+                  <button className="btn btn-inv">See More</button>
                 </div>
               </div>
             </div>
@@ -201,47 +213,17 @@ class App extends React.Component {
                   src="//p.rmjo.in/productSquare/y4ytan9d-500x500.jpg"
                 />
               </div>
-              <span className="prd-name">Samsung Galaxy S9 ( Black )</span>
+              <span className="prd-name">Samsung Galaxy S9</span>
               <div className="down">
                 <div className="left">
                   <p className="text">Rent</p>
                   <p className="rate">$ 100/mo</p>
                 </div>
-              </div>
-            </div>
-            <div className="product">
-              <div className="prd-img-cont">
-                <img
-                  alt="product_image"
-                  className="img"
-                  src="//p.rmjo.in/productSquare/y4ytan9d-500x500.jpg"
-                />
-              </div>
-              <span className="prd-name">Samsung Galaxy S9 ( Black )</span>
-              <div className="down">
-                <div className="left">
-                  <p className="text">Rent</p>
-                  <p className="rate">$ 100/mo</p>
+                <div className="right">
+                  <button className="btn btn-inv">See More</button>
                 </div>
               </div>
             </div>
-            <div className="product">
-              <div className="prd-img-cont">
-                <img
-                  alt="product_image"
-                  className="img"
-                  src="//p.rmjo.in/productSquare/y4ytan9d-500x500.jpg"
-                />
-              </div>
-              <span className="prd-name">Samsung Galaxy S9 ( Black )</span>
-              <div className="down">
-                <div className="left">
-                  <p className="text">Rent</p>
-                  <p className="rate">$ 100/mo</p>
-                </div>
-              </div>
-            </div>
-         
           </div>
         </section>
       </div>
