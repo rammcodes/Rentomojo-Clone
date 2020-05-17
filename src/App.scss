@@ -154,11 +154,11 @@
     }
     .products {
       display: flex;
-      justify-content: space-around;
       flex-wrap: wrap;
       padding: 0 0 0 20px;
       width: 100%;
       overflow: auto;
+      justify-content: space-evenly;
       .product {
         cursor: pointer;
         padding: 20px;
@@ -185,21 +185,25 @@
             .text {
               color: rgb(180, 180, 180);
               font-weight: bold;
-              margin: 0 0 7px 0;
+              margin: 0 0 5px 0;
+              font-size: 0.8rem;
             }
             .rate {
-              font-size: 1rem;
+              font-size: 0.9rem;
               color: #555;
               font-weight: bold;
             }
           }
           .right {
+              align-self: stretch;
+              background-color: #dc3226;
             .btn {
               border: 1px solid #dc3226;
+              height: 100%;
               border-radius: 3px;
               color: #dc3226;
               background: #fff;
-              padding: 10px 30px;
+              padding: 0px 30px;
               cursor: pointer;
               &:hover {
                 color: #fff;
