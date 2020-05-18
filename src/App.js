@@ -369,6 +369,54 @@ class App extends React.Component {
             </div>
           </div>
         </section>
+        <footer className="main-footer">
+          <div className="container">
+            <div className="upper">
+              <div className="sec">
+                <h4 className="title">Rentomojo</h4>
+                <ul className="items">
+                  <li className="item">About us</li>
+                  <li className="item">Culture</li>
+                  <li className="item">Investors</li>
+                  <li className="item">Careers</li>
+                  <li className="item">Contact</li>
+                  <li className="item">Our Benefits</li>
+                  <li className="item">Sitemap</li>
+                </ul>
+              </div>
+              <div className="sec">
+                <h4 className="title">Information</h4>
+                <ul className="items">
+                  <li className="item">Blog</li>
+                  <li className="item">FAQs</li>
+                  <li className="item">Documents Required</li>
+                  <li className="item">Your Guide to a smarter living</li>
+                </ul>
+              </div>
+              <div className="sec">
+                <h4 className="title">Policies</h4>
+                <ul className="items">
+                  <li className="item">Shipping Policy</li>
+                  <li className="item">Cancellations & Modifications</li>
+                  <li className="item">Return & refund</li>
+                  <li className="item">Privacy & Policy</li>
+                  <li className="item">Rental Terms & Conditions</li>
+                  <li className="item">Referral Terms & Conditions</li>
+                </ul>
+              </div>
+              <div className="sec">
+                <h4 className="title">Need Help?</h4>
+                <ul className="items">
+                  <li className="item">About us</li>
+                  <li className="item">About us</li>
+                  <li className="item">About us</li>
+                  <li className="item">About us</li>
+                  <li className="item">About us</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </footer>
       </div>
     )
   }
