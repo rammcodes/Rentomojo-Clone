@@ -214,4 +214,53 @@
       display: none;
     }
   }
+  .features {
+    padding: 100px 0;
+    .upper {
+      max-width: 1300px;
+      width: 80%;
+      margin: 0 auto 20px auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      .msg {
+        font-size: 2rem;
+        .text {
+          display: block;
+          margin: 0 0 20px 0;
+        }
+        hr {
+          width: 50px;
+          border: 1px solid #dc3226;
+        }
+      }
+    }
+    .features-list {
+      max-width: 1300px;
+      width: 80%;
+      margin: auto;
+      display: flex;
+      flex-wrap: wrap;
+      .feature {
+        padding: 30px 0;
+        width: 33.333%;
+        margin:  0 0 20px 0;
+        .icon-cont {
+          width: 15%;
+          margin:  0 0 20px 0;
+          .icon {
+            width: 100%;
+          }
+        }
+        .feature-name {
+          font-size: 1.2rem;
+          margin:  0 0 15px 0;
+        }
+        .detail {
+          color: grey;
+          width: 90%;
+        }
+      }
+    }
+  }
 }

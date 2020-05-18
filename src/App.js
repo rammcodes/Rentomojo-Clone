@@ -275,6 +275,100 @@ class App extends React.Component {
             </div>
           </div>
         </section>
+        <section className="features">
+          <div className="upper">
+            <div className="msg">
+              <span className="text"> You'll love to take these home </span>
+              <hr />
+            </div>
+          </div>
+          <div className="features-list">
+            <div className="feature">
+              <div className="icon-cont">
+                <img
+                  className="icon"
+                  alt="icon"
+                  src="https://rentomojo.com/public/images/Home/new/benefit/icon-finest__quality.svg"
+                />
+              </div>
+              <h4 className="feature-name">Finest-quality products</h4>
+              <p className="detail">
+                Quality matters to you, and us! That's why we do a strict
+                quality-check for every product.
+              </p>
+            </div>
+            <div className="feature">
+              <div className="icon-cont">
+                <img
+                  className="icon"
+                  alt="icon"
+                  src="https://rentomojo.com/public/images/Home/new/benefit/icon-finest__quality.svg"
+                />
+              </div>
+              <h4 className="feature-name">Finest-quality products</h4>
+              <p className="detail">
+                Quality matters to you, and us! That's why we do a strict
+                quality-check for every product.
+              </p>
+            </div>
+            <div className="feature">
+              <div className="icon-cont">
+                <img
+                  className="icon"
+                  alt="icon"
+                  src="https://rentomojo.com/public/images/Home/new/benefit/icon-finest__quality.svg"
+                />
+              </div>
+              <h4 className="feature-name">Finest-quality products</h4>
+              <p className="detail">
+                Quality matters to you, and us! That's why we do a strict
+                quality-check for every product.
+              </p>
+            </div>
+            <div className="feature">
+              <div className="icon-cont">
+                <img
+                  className="icon"
+                  alt="icon"
+                  src="https://rentomojo.com/public/images/Home/new/benefit/icon-finest__quality.svg"
+                />
+              </div>
+              <h4 className="feature-name">Finest-quality products</h4>
+              <p className="detail">
+                Quality matters to you, and us! That's why we do a strict
+                quality-check for every product.
+              </p>
+            </div>
+            <div className="feature">
+              <div className="icon-cont">
+                <img
+                  className="icon"
+                  alt="icon"
+                  src="https://rentomojo.com/public/images/Home/new/benefit/icon-finest__quality.svg"
+                />
+              </div>
+              <h4 className="feature-name">Finest-quality products</h4>
+              <p className="detail">
+                Quality matters to you, and us! That's why we do a strict
+                quality-check for every product.
+              </p>
+            </div>
+            <div className="feature">
+              <div className="icon-cont">
+                <img
+                  className="icon"
+                  alt="icon"
+                  src="https://rentomojo.com/public/images/Home/new/benefit/icon-finest__quality.svg"
+                />
+              </div>
+              <h4 className="feature-name">Finest-quality products</h4>
+              <p className="detail">
+                Quality matters to you, and us! That's why we do a strict
+                quality-check for every product.
+              </p>
+            </div>
+          </div>
+        </section>
       </div>
     )
   }
