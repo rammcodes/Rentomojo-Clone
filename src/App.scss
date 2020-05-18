@@ -142,7 +142,6 @@
           display: flex;
           align-items: center;
           justify-content: center;
-          display: block;
           border-radius: 50%;
           height: 50px;
           width: 50px;
@@ -153,18 +152,18 @@
     }
     .products {
       display: flex;
-      flex-wrap: wrap;
-      padding: 0 0 0 20px;
       width: 100%;
-      overflow: auto;
-      justify-content: space-evenly;
+      overflow-x: auto;
+      padding: 0 0 0 20px;
       .product {
+        flex-shrink: 0;
         cursor: pointer;
         padding: 20px;
         width: 17%;
         background: #fff;
         border: 1px solid #eee;
         border-radius: 3px;
+        margin: 0 1.3% 0 0;
         .prd-img-cont {
           margin: 0 0 20px 0;
           .img {
@@ -193,16 +192,15 @@
             }
           }
           .right {
-              align-self: stretch;
-              background-color: #dc3226;
+            background-color: #dc3226;
             .btn {
               border: 1px solid #dc3226;
-              height: 100%;
               border-radius: 3px;
               color: #dc3226;
               background: #fff;
-              padding: 0px 30px;
+              padding: 10px 20px;
               cursor: pointer;
+              font-size: 0.9rem;
               &:hover {
                 color: #fff;
                 background: #dc3226;
@@ -211,6 +209,9 @@
           }
         }
       }
+    }
+    .products::-webkit-scrollbar {
+      display: none;
     }
   }
 }

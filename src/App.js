@@ -124,8 +124,19 @@ class App extends React.Component {
               <hr />
             </div>
             <div className="buttons">
-              <span className="btn-cont"> </span>
-              <span className="btn-cont"> </span>
+              <span className="btn-cont">
+                <img
+                  style={{ transform: 'rotate(180deg)' }}
+                  src="https://rentomojo.com/public/images/Home/new/chevron.svg"
+                  alt="left"
+                />{' '}
+              </span>
+              <span className="btn-cont">
+                <img
+                  src="https://rentomojo.com/public/images/Home/new/chevron.svg"
+                  alt="right"
+                />
+              </span>
             </div>
           </div>
           <div className="products">
@@ -138,6 +149,44 @@ class App extends React.Component {
                 />
               </div>
               <span className="prd-name">Samsung Galaxy S9</span>
+              <div className="down">
+                <div className="left">
+                  <p className="text">Rent</p>
+                  <p className="rate">$ 100/mo</p>
+                </div>
+                <div className="right">
+                  <button className="btn btn-inv">See More</button>
+                </div>
+              </div>
+            </div>
+            <div className="product">
+              <div className="prd-img-cont">
+                <img
+                  alt="product_image"
+                  className="img"
+                  src="//p.rmjo.in/productSquare/p505hdno-500x500.jpg"
+                />
+              </div>
+              <span className="prd-name">Air Purifier</span>
+              <div className="down">
+                <div className="left">
+                  <p className="text">Rent</p>
+                  <p className="rate">$ 100/mo</p>
+                </div>
+                <div className="right">
+                  <button className="btn btn-inv">See More</button>
+                </div>
+              </div>
+            </div>
+            <div className="product">
+              <div className="prd-img-cont">
+                <img
+                  alt="product_image"
+                  className="img"
+                  src="//p.rmjo.in/productSquare/jn6nzk0e-500x500.jpg"
+                />
+              </div>
+              <span className="prd-name">LED TV</span>
               <div className="down">
                 <div className="left">
                   <p className="text">Rent</p>
