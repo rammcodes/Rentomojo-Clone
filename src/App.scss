@@ -266,7 +266,7 @@
     background: #f5f7fa;
     .container {
       width: 80%;
-      padding: 80px 0;
+      padding: 80px 0 0 0;
       max-width: 1300px;
       margin: auto;
       .upper {
@@ -288,6 +288,24 @@
               color: rgb(119, 119, 119);
               font-size: 0.9rem;
             }
+          }
+        }
+      }
+      .down {
+        padding: 50px 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 50px 0 0 0;
+        border-top: 1px solid rgb(220, 220, 220);
+        .text {
+          color: rgb(119, 119, 119);
+        }
+        .social-icons {
+          display: flex;
+          align-items: center;
+          .icon-cont {
+            margin: 0 0 0 10px;
           }
         }
       }

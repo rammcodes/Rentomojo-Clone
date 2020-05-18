@@ -407,12 +407,42 @@ class App extends React.Component {
               <div className="sec">
                 <h4 className="title">Need Help?</h4>
                 <ul className="items">
-                  <li className="item">About us</li>
-                  <li className="item">About us</li>
-                  <li className="item">About us</li>
-                  <li className="item">About us</li>
-                  <li className="item">About us</li>
+                  <li className="item">1800 102 6601</li>
+                  <li className="item">joe@rentomojo.com</li>
                 </ul>
+              </div>
+            </div>
+            <div className="down">
+              <span className="text">© 2020. Edunetwork Pvt. Ltd.</span>
+              <div className="social-icons">
+                <div className="icon-cont">
+                  <img
+                    src="https://img.icons8.com/ios-filled/24/000000/youtube-play.png"
+                    alt="social"
+                    className="icon"
+                  />
+                </div>
+                <div className="icon-cont">
+                  <img
+                    src="https://img.icons8.com/ios-glyphs/24/000000/instagram-new.png"
+                    alt="social"
+                    className="icon"
+                  />
+                </div>
+                <div className="icon-cont">
+                  <img
+                    src="https://img.icons8.com/android/24/000000/facebook-new.png"
+                    alt="social"
+                    className="icon"
+                  />
+                </div>
+                <div className="icon-cont">
+                  <img
+                    alt="social"
+                    className="icon"
+                    src="https://img.icons8.com/ios-glyphs/24/000000/linkedin-circled.png"
+                  />
+                </div>
               </div>
             </div>
           </div>
