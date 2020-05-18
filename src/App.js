@@ -302,7 +302,7 @@ class App extends React.Component {
                 <img
                   className="icon"
                   alt="icon"
-                  src="https://rentomojo.com/public/images/Home/new/benefit/icon-finest__quality.svg"
+                  src="https://rentomojo.com/public/images/Home/new/benefit/icon-free__relocation.svg"
                 />
               </div>
               <h4 className="feature-name">Finest-quality products</h4>
@@ -316,7 +316,7 @@ class App extends React.Component {
                 <img
                   className="icon"
                   alt="icon"
-                  src="https://rentomojo.com/public/images/Home/new/benefit/icon-finest__quality.svg"
+                  src="https://rentomojo.com/public/images/Home/new/benefit/icon-free__maintenance.svg"
                 />
               </div>
               <h4 className="feature-name">Finest-quality products</h4>
@@ -330,7 +330,7 @@ class App extends React.Component {
                 <img
                   className="icon"
                   alt="icon"
-                  src="https://rentomojo.com/public/images/Home/new/benefit/icon-finest__quality.svg"
+                  src="https://rentomojo.com/public/images/Home/new/benefit/icon-cancel__anytime.svg"
                 />
               </div>
               <h4 className="feature-name">Finest-quality products</h4>
@@ -344,7 +344,7 @@ class App extends React.Component {
                 <img
                   className="icon"
                   alt="icon"
-                  src="https://rentomojo.com/public/images/Home/new/benefit/icon-finest__quality.svg"
+                  src="https://rentomojo.com/public/images/Home/new/benefit/icon-easy__return.svg"
                 />
               </div>
               <h4 className="feature-name">Finest-quality products</h4>
@@ -358,7 +358,7 @@ class App extends React.Component {
                 <img
                   className="icon"
                   alt="icon"
-                  src="https://rentomojo.com/public/images/Home/new/benefit/icon-finest__quality.svg"
+                  src="https://rentomojo.com/public/images/Home/new/benefit/icon-keep__upgrading.svg"
                 />
               </div>
               <h4 className="feature-name">Finest-quality products</h4>
