@@ -333,9 +333,6 @@
 
 @media (max-width: 1300px) {
   .homeview {
-    .navbar {
-      display: none;
-    }
     .features {
       .features-list {
         .feature {
@@ -348,6 +345,45 @@
 
 @media (max-width: 1200px) {
   .homeview {
+    background: #f5f7fa;
+    .navbar {
+      padding: 10px 0;
+      background: transparent;
+      border-bottom: 0;
+      .container {
+        width: 100%;
+        .brand-logo-cont {
+          display: none;
+        }
+        .search-bar {
+          width: 95%;
+          margin: auto;
+          border-radius: 5px;
+          padding: 15px 25px;
+          border: none;
+          box-shadow:  0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .cart {
+          display: none;
+        }
+        .nav-btn {
+          display: none;
+        }
+      }
+      
+    }
+    .homeview-header {
+      .category {
+        .container {
+          .category-list {
+            .cat {
+              background: #fff;
+              border: 1px solid rgb(234, 234, 234);
+            }
+          }
+        }
+      }
+    }
     .homeview-products {
       .upper {
         .msg {
@@ -451,6 +487,7 @@
     .features {
       text-align: center;
       .upper {
+        width: 95%;
         .msg {
           font-size: 1.8rem;
           width: 100%;
@@ -463,10 +500,14 @@
         }
       }
       .features-list {
+        width: 95%;
         .feature {
           width: 100%;
           .icon-cont {
             margin: 0 auto 20px auto;
+          }
+          .detail {
+            width: 100%;
           }
         }
       }
@@ -478,6 +519,7 @@
   .homeview {
     .homeview-header {
       .category {
+        padding: 40px 0 20px 0;
         .container {
           padding: 0 0 0 3%;
           width: 100%;
@@ -499,6 +541,7 @@
       }
     }
     .homeview-products {
+      padding: 40px 0;
       .upper {
         .msg {
           font-size: 1.5rem;
@@ -508,6 +551,14 @@
         .product {
           width: 70%;
         }
+      }
+    }
+    .features {
+      padding: 40px 0;
+    }
+    .main-footer {
+      .container {
+        padding: 40px 0 0 0;
       }
     }
   }
@@ -524,6 +575,22 @@
       .products {
         .product {
           width: 80%;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 350px) {
+  .homeview {
+    .homeview-header {
+      .category {
+        .container {
+          .category-list {
+            .cat-name {
+              font-size: 0.6rem;
+            }
+          }
         }
       }
     }
