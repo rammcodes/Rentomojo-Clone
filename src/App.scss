@@ -589,6 +589,7 @@
       }
       .main-footer {
         .container {
+          width: 90%;
           padding: 40px 0 0 0;
         }
       }
@@ -632,6 +633,18 @@
       }
       .main-footer {
         .container {
+          .upper {
+            .sec {
+              .title {
+                font-size: 0.9rem;
+              }
+              .items {
+                .item {
+                  font-size: 0.8rem;
+                }
+              }
+            }
+          }
           .down {
             padding: 20px 0 100px 0;
             flex-direction: column;
