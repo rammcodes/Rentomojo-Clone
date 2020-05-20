@@ -30,6 +30,25 @@ class App extends React.Component {
             <button className="nav-btn primary-btn">Login / Signup</button>
           </div>
         </div>
+        <div className="bottom-nav">
+          <div className="container">
+            <div className="icon-cont">
+              <i class="fa fa-home" aria-hidden="true"></i>
+            </div>
+            <div className="icon-cont">
+              <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+            </div>
+            <div className="icon-cont">
+              <i class="fa fa-bars" aria-hidden="true"></i>
+            </div>
+            <div className="icon-cont">
+              <i class="fa fa-search" aria-hidden="true"></i>
+            </div>
+            <div className="icon-cont">
+              <i class="fa fa-user" aria-hidden="true"></i>
+            </div>
+          </div>
+        </div>
         <header className="homeview-header">
           <div className="hero-showcase">
             <div className="hero-cont">
