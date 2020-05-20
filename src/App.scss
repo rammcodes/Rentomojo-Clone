@@ -613,6 +613,23 @@
           }
         }
       }
+      .features {
+        .upper {
+          .msg {
+            font-size: 1.5rem;
+          }
+        }
+        .features-list {
+          .feature {
+            .feature-name {
+              font-size: 1rem;
+            }
+            .detail {
+              font-size: 0.9rem;
+            }
+          }
+        }
+      }
       .main-footer {
         .container {
           .down {
