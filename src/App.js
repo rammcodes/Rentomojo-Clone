@@ -33,7 +33,7 @@ class App extends React.Component {
         <div className="bottom-nav">
           <div className="container">
             <div className="icon-cont">
-              <i class="fa fa-home" aria-hidden="true"></i>
+              <i class="fa fa-home current" aria-hidden="true"></i>
             </div>
             <div className="icon-cont">
               <i class="fa fa-shopping-cart" aria-hidden="true"></i>
